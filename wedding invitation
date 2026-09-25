@@ -1,1 +1,247 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#7f1d1d" />
+  <title>J & D — Wedding Invitation</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Great+Vibes&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Decorative side pattern -->
+  <div class="side-pattern left"></div>
+  <div class="side-pattern right"></div>
+
+  <!-- Opening cover -->
+  <section id="opening" class="opening">
+    <div class="opening-overlay"></div>
+    <div class="opening-content">
+      <p class="eyebrow">THE WEDDING OF</p>
+      <div class="monogram">J <span>&</span> D</div>
+      <div class="double-happiness">囍</div>
+      <h1>Jason <span>&</span> Denise</h1>
+      <p class="date">SATURDAY · 14 FEBRUARY 2027</p>
+      <button id="openInvitation" class="btn primary">Open Invitation</button>
+    </div>
+  </section>
+
+  <main id="mainContent" class="hidden">
+
+    <nav class="nav">
+      <a href="#home" class="nav-logo">J & D</a>
+      <button class="music-toggle" id="musicToggle" aria-label="Toggle music">♫</button>
+    </nav>
+
+    <!-- Hero -->
+    <section id="home" class="hero section">
+      <div class="hero-inner">
+        <p class="eyebrow">WE ARE GETTING MARRIED</p>
+        <div class="ornament">❦</div>
+        <h2>Jason <span>&</span> Denise</h2>
+        <p class="hero-date">14 · 02 · 2027</p>
+        <p class="hero-copy">Two hearts, one journey, and a lifetime to share.</p>
+        <a href="#details" class="scroll-link">Discover our day ↓</a>
+      </div>
+    </section>
+
+    <!-- Couple -->
+    <section class="section cream" id="couple">
+      <div class="container">
+        <p class="eyebrow">WITH LOVE</p>
+        <h2 class="section-title">The Happy Couple</h2>
+        <div class="couple-grid">
+          <article class="person">
+            <div class="portrait placeholder">
+              <span>J</span>
+            </div>
+            <h3>Jason Lee</h3>
+            <p>THE GROOM</p>
+            <div class="divider"></div>
+            <p class="small">Son of<br><strong>Mr. & Mrs. Lee</strong></p>
+          </article>
+
+          <div class="ampersand">J <span>&</span> D</div>
+
+          <article class="person">
+            <div class="portrait placeholder">
+              <span>D</span>
+            </div>
+            <h3>Denise</h3>
+            <p>THE BRIDE</p>
+            <div class="divider"></div>
+            <p class="small">Daughter of<br><strong>Mr. & Mrs. Tan</strong></p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Countdown -->
+    <section class="section red-section">
+      <div class="container center">
+        <p class="eyebrow light">COUNTING DOWN TO FOREVER</p>
+        <h2 class="section-title light">Our Special Day</h2>
+        <div id="countdown" class="countdown">
+          <div><strong id="days">00</strong><span>DAYS</span></div>
+          <div><strong id="hours">00</strong><span>HOURS</span></div>
+          <div><strong id="minutes">00</strong><span>MINUTES</span></div>
+          <div><strong id="seconds">00</strong><span>SECONDS</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Event details -->
+    <section class="section" id="details">
+      <div class="container">
+        <p class="eyebrow">SAVE THE DATE</p>
+        <h2 class="section-title">Wedding Details</h2>
+
+        <div class="events">
+          <article class="event-card">
+            <div class="event-icon">囍</div>
+            <h3>Wedding Ceremony</h3>
+            <p class="event-date">Saturday, 14 February 2027</p>
+            <p>10:00 AM – 12:00 PM</p>
+            <p class="venue">Grand Ballroom<br>Wedding Venue Name</p>
+            <a class="text-button" href="https://www.google.com/maps" target="_blank" rel="noopener">View Location →</a>
+          </article>
+
+          <article class="event-card">
+            <div class="event-icon">❦</div>
+            <h3>Wedding Reception</h3>
+            <p class="event-date">Saturday, 14 February 2027</p>
+            <p>6:00 PM – 9:00 PM</p>
+            <p class="venue">Grand Ballroom<br>Wedding Venue Name</p>
+            <a class="text-button" href="https://www.google.com/maps" target="_blank" rel="noopener">View Location →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Story -->
+    <section class="section cream">
+      <div class="container">
+        <p class="eyebrow">OUR JOURNEY</p>
+        <h2 class="section-title">Once Upon a Time</h2>
+
+        <div class="timeline">
+          <div class="timeline-item">
+            <span>01</span>
+            <div><h3>First Meeting</h3><p>Where two strangers met and a beautiful story quietly began.</p></div>
+          </div>
+          <div class="timeline-item">
+            <span>02</span>
+            <div><h3>The Beginning</h3><p>From little conversations to countless memories together.</p></div>
+          </div>
+          <div class="timeline-item">
+            <span>03</span>
+            <div><h3>The Proposal</h3><p>A promise to walk through every chapter of life side by side.</p></div>
+          </div>
+          <div class="timeline-item">
+            <span>04</span>
+            <div><h3>Forever Starts Here</h3><p>And now, we celebrate the beginning of our forever.</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery -->
+    <section class="section gallery-section">
+      <div class="container">
+        <p class="eyebrow">MEMORIES</p>
+        <h2 class="section-title">Our Gallery</h2>
+        <div class="gallery">
+          <div class="gallery-item tall placeholder"><span>J & D</span></div>
+          <div class="gallery-item placeholder"><span>PHOTO 02</span></div>
+          <div class="gallery-item placeholder"><span>PHOTO 03</span></div>
+          <div class="gallery-item wide placeholder"><span>PHOTO 04</span></div>
+          <div class="gallery-item placeholder"><span>PHOTO 05</span></div>
+          <div class="gallery-item placeholder"><span>PHOTO 06</span></div>
+        </div>
+        <p class="gallery-note">Replace the placeholder blocks with your own wedding photos in the <code>images</code> folder.</p>
+      </div>
+    </section>
+
+    <!-- RSVP -->
+    <section class="section cream" id="rsvp">
+      <div class="container narrow">
+        <p class="eyebrow">YOUR PRESENCE IS OUR GIFT</p>
+        <h2 class="section-title">RSVP</h2>
+        <p class="intro">Please let us know if you will be joining our celebration.</p>
+
+        <form id="rsvpForm" class="rsvp-form">
+          <label>
+            Name
+            <input type="text" id="guestName" required placeholder="Your name">
+          </label>
+          <label>
+            Attendance
+            <select id="attendance" required>
+              <option value="">Select</option>
+              <option value="Joyfully attending">Joyfully attending</option>
+              <option value="Regretfully unable to attend">Regretfully unable to attend</option>
+            </select>
+          </label>
+          <label>
+            Number of guests
+            <select id="guestCount">
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+            </select>
+          </label>
+          <label>
+            Message
+            <textarea id="message" rows="4" placeholder="Leave a message for the couple"></textarea>
+          </label>
+          <button class="btn primary" type="submit">Send RSVP</button>
+        </form>
+        <p id="formStatus" class="form-status" aria-live="polite"></p>
+      </div>
+    </section>
+
+    <!-- Gift -->
+    <section class="section">
+      <div class="container narrow center">
+        <p class="eyebrow">A LITTLE GESTURE</p>
+        <h2 class="section-title">Wedding Gift</h2>
+        <p class="intro">Your presence is more than enough. For those who wish to send a gift, you may use the details below.</p>
+
+        <div class="gift-card">
+          <div class="double-happiness">囍</div>
+          <h3>Bank Transfer</h3>
+          <p>J & D</p>
+          <strong id="accountNumber">1234567890</strong>
+          <p>Bank Name</p>
+          <button class="text-button" id="copyAccount">Copy Account Number</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Closing -->
+    <section class="closing">
+      <div class="closing-overlay"></div>
+      <div class="closing-content">
+        <div class="monogram">J <span>&</span> D</div>
+        <div class="double-happiness">囍</div>
+        <p>Thank you for being part of our story.</p>
+        <h2>See you on our special day.</h2>
+        <p class="closing-date">14 · 02 · 2027</p>
+      </div>
+    </section>
+
+    <footer>J & D · WITH LOVE, ALWAYS</footer>
+  </main>
+
+  <audio id="weddingMusic" loop preload="none">
+    <source src="music/wedding-song.mp3" type="audio/mpeg">
+  </audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
